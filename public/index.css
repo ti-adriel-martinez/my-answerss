@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200px;
+    margin: 20px;
+}
+
+.btn {
+    font-size: 100px;
+
+}
+
+.d-none {
+    display: none;
+}
+
+.loading-icon {
+    height: 291px;
+    width: 441px;
+    margin: auto;
+}
+
+.answer-a {
+    color: #4285F4;
+}
+.answer-b {
+    color: #EA4335;
+}
+.answer-c {
+    color: #FBBC05;
+}
+.answer-d {
+    color: #34A853;
+}
+.answer-e {
+    color: #9F31DF;
+}
