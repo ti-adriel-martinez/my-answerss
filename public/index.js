@@ -46,6 +46,10 @@ socket.on("answer-is-e", ()=> {
     console.log("Answer is e")
     renderAnswer("E")
 })
+socket.on("answer-is-siguiente", ()=> {
+    console.log("Answer is e")
+    renderAnswer("--")
+})
 
 
 function renderAnswer(answer) {
